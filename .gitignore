@@ -1,0 +1,9 @@
+lib/
+MNIST_DATA/
+include/
+bin/
+.ipynb_checkpoints/
+share/
+pip-selfcheck.json
+.Python
+*.pyc
