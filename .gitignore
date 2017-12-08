@@ -1,5 +1,4 @@
 lib/
-MNIST_DATA/
 include/
 bin/
 .ipynb_checkpoints/
