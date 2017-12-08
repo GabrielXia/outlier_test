@@ -18,7 +18,7 @@ def main():
     mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
     # generate mnist with outlier
-    mnist_outlier = MnistWithOutlier(mnist, args.outlier_nums, args.no_outlier_nums, args.outlier_ratio)
+    mnist_outlier = MnistWithOutlier(mnist, args.no_outlier_nums, args.outlier_nums, args.outlier_ratio)
 
     # some paramater
     num_class = mnist_outlier.train_labels.shape[1]
