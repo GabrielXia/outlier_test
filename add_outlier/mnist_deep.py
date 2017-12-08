@@ -31,7 +31,7 @@ import tensorflow as tf
 FLAGS = None
 
 
-def deepnn(x):
+def deepnn(x, num_class):
   """deepnn builds the graph for a deep net for classifying digits.
   Args:
     x: an input tensor with the dimensions (N_examples, 784), where 784 is the
@@ -85,8 +85,8 @@ def deepnn(x):
 
   # Map the 1024 features to 10 classes, one for each digit
   with tf.name_scope('fc2'):
-    W_fc2 = weight_variable([1024, 2])
-    b_fc2 = bias_variable([2])
+    W_fc2 = weight_variable([1024, num_class])
+    b_fc2 = bias_variable([num_class])
 
     y_conv = tf.matmul(h_fc1_drop, W_fc2) + b_fc2
   return y_conv, keep_prob

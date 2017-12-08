@@ -7,3 +7,5 @@ share/
 pip-selfcheck.json
 .Python
 *.pyc
+
+.idea/
