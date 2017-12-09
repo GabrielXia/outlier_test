@@ -7,6 +7,7 @@ class MnistOutlier:
         self.outlier_ratio = outlier_ratio
         self.train_images, self.train_labels = self.generate_outlier_mnist()
         self.test_images, self.test_labels = self.mnist.test.images, self.mnist.test.labels
+        self.validation_images, self.validation_labels = self.mnist.validation.images, self.mnist.validation.labels
         self._index_in_epoch = 0
         self._epochs_completed = 0
         self._num_examples = self.train_images.shape[0]
