@@ -11,6 +11,7 @@ This is a mnist data with outliers. We take mnist data, wrongly label some of th
 ###  Result
 
 - Some results: (200000 steps)
+
 outlier ratio | test accuracy
 ------------- | --------------
 0.1 | 0.9671
@@ -25,7 +26,7 @@ outlier ratio | test accuracy
 
 - Tensorborad
 
-    - Test Accuracy: We can see a descent after some steps!
-    [img/test_acc.png]
+    - Test Accuracy: We can see a descent after some steps! ![](../img/test_acc.png)
     - Training Accuracy: While the training accurency seems to ascends.
-    [img/train.png]
+
+    ![](../img/train.png)
