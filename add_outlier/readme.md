@@ -24,7 +24,7 @@ outlier ratio | test accuracy
 0.8 | 0.34069
 0.9 | 0.1027
 
-- Tensorborad
+- Tensorboard
 
     - Test Accuracy: We can see a descent after some steps! ![](../img/test_acc.png)
     - Training Accuracy: While the training accurency seems to ascends.
